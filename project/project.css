@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+    
+}
+body {
+    font-family: 'Merriweather', serif;
+
+}
+header.head1{
+    background:linear-gradient(rgba(7, 7, 7, 0.73),rgba(17, 199, 169, 0.644)),url("./pictures/cyber-wallpaper-1920x1080-7.jpg");
+ width :1519px;
+    height: 720px;
+    background-size: cover;
+    align-content: center;
+    }
+header.head1 nav.nav1 ul.navbar li a{
+text-decoration: none;
+color: azure;
+display:inline;
+margin: 5px;
+padding :10px;
+
+
+}
+header.head1 nav.nav1 ul.navbar li.left{
+   color: rgb(190, 5, 42);
+    float: left;
+    list-style-type: none;
+    margin-top: 7px;
+}
+
+header.head1 nav.nav1 ul.navbar::after  {
+    clear:both;
+    display:table;
+    content:'';
+
+}
+
+ul.navbar{
+    text-decoration: none;
+}
+header.head1 nav.nav1 ul.navbar li.right{
+    border: 2px solid rgb(219, 29, 29);
+    border-radius: 360px;
+    padding: 0px;
+    margin: 0px;
+    width: 30px;
+    height: 5px;
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 239, 239);
+}
+
+
+header h2.myname{
+    color: crimson;
+    font-size: 30px;
+    text-align: center;
+    align-content: center;
+    }
+header h2.skills{
+    color: crimson;
+    font-size:30px;
+    align-content:center;
+    text-align: center;
+    
+}
+.p-h1{
+    color: rgba(255, 187, 0, 0.918);
+    text-align: center;
+    text-decoration: underline rgb(0, 255, 98);
+}
+p.me{
+    margin-left:  200px; 
+    margin-right:200px ;
+    font-size: 25px;   
+    background-color: gainsboro;
+     
+}
+
+section.sec1{
+    display: flex;
+    
+    flex-direction: row;
+    flex-basis: 20px;
+    font-size: 25px;
+    height: 300px;
+    width: 1300px;
+    justify-content: center;
+    text-align: center;
+    margin-left:100px;
+}
+
+section p.s1-p1{
+    border: 2px solid red;
+    margin: 1px;
+    padding: 1px;
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    flex: 1;
+    
+}
+section p.s1-p2{
+    border: 2px solid red;
+    margin: 1px;
+    padding: 1px;
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+ 
+section p.s1-p3{
+    border: 2px solid red;
+    margin: 1px;
+    padding: 1px;
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+hr{
+    height: 25px;
+    background-color: blue;
+}
+
+section.sec2{
+    display: flex;
+    border: 2px solid red;
+  flex-direction: row;
+    flex-basis: 20px;
+    font-size: 25px;
+    height: 300px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 210px;
+    margin-right: 210px;
+    
+
+}
+section p.s2-p1{
+    border: 2px solid red;
+    margin: 1px;
+    padding: 1px;
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    flex: 1;
+    
+}
+section p.s2-p2{
+    border: 2px solid red;
+    margin: 1px;
+    padding: 1px;
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    flex: 1;
+    
+}
+section p.s2-p3{
+    border: 2px solid red;
+    margin: 1px;
+    padding: 1px;
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    flex: 1;
+    
+}
